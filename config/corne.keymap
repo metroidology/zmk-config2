@@ -21,7 +21,7 @@
                         bindings = <
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
    &kp LCTRL &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
-   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RET
+   &lt LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RET
                   &kp LGUI &kp SPACE &tog 1  &tog 2 &kp SPACE &kp RALT
                         >;
                 };
@@ -29,12 +29,12 @@
 // -----------------------------------------------------------------------------------------
 // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   |  7  |  8  |  9  |  *  | DEL | PGUP |
 // | CTRL |     |     |     |     |     |   |  4  |  5  |  6  |     |  UP | PGDWN|
-// | SHFT |     |     |     |     |     |   |  1  |  2  |  3  | LFT | DWN | RGT  |
+// | CAPS |     |     |     |     |     |   |  1  |  2  |  3  | LFT | DWN | RGT  |
 //                    | GUI | SPC |     |   |     |  0  | ALT |
                         bindings = <
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp N7   &kp N8   &kp N9 &kp STAR &kp DEL  &kp PG_UP
    &kp LCTRL  &trans       &trans       &trans       &trans       &trans         &kp N4   &kp N5   &kp N6 &trans   &kp UP   &kp PG_DN
-   &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &kp N1   &kp N2   &kp N3 &kp LEFT &kp DOWN &kp RIGHT
+   &kp CAPS   &trans       &trans       &trans       &trans       &trans         &kp N1   &kp N2   &kp N3 &kp LEFT &kp DOWN &kp RIGHT
                           	        &kp LGUI     &kp SPACE    &trans         &trans   &kp N0   &kp RALT
                         >;
                 };

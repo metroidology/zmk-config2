@@ -51,10 +51,10 @@
 // |CTRLF7| F8  | F9  | F10 |  F11  | F12 |   |  1  |  2  |  3  | LFT  | DWN | RGT   |
 //                   | GUI |C+A SPC|     |   |     | SPC |  0  |
                         bindings = <
-   &htn BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp KP_N7   &kp KP_N8   &kp KP_N9 &kp STAR  &kp DEL  &kp BSPC
-   &mt LSHFT F1 &kp F2       &kp F3       &kp F4       &kp F5       &kp F6         &kp KP_N4   &kp KP_N5   &kp KP_N6 &kp PG_UP &kp UP   &kp PG_DN
-   &mt LCTRL F7 &kp F8       &kp F9       &kp F10      &kp F11      &kp F12        &kp KP_N1   &kp KP_N2   &kp KP_N3 &kp LEFT  &kp DOWN &kp RIGHT
-                          	          &kp LGUI &mt LC(LALT) SPACE &trans         &trans      &kp SPACE   &kp KP_N0
+   &htn BT_CLR  &htn BT_SEL 0 &htn BT_SEL 1 &htn BT_SEL 2 &htn BT_SEL 3 &htn BT_SEL 4   &kp KP_N7   &kp KP_N8   &kp KP_N9 &kp STAR  &kp DEL  &kp BSPC
+   &mt LSHFT F1 &kp F2        &kp F3        &kp F4        &kp F5        &kp F6          &kp KP_N4   &kp KP_N5   &kp KP_N6 &kp PG_UP &kp UP   &kp PG_DN
+   &mt LCTRL F7 &kp F8        &kp F9        &kp F10       &kp F11       &kp F12         &kp KP_N1   &kp KP_N2   &kp KP_N3 &kp LEFT  &kp DOWN &kp RIGHT
+                          	                &kp LGUI &mt LC(LALT) SPACE &trans          &trans      &kp SPACE   &kp KP_N0
                         >;
                 };
 
